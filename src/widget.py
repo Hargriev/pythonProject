@@ -30,4 +30,3 @@ def get_data(data: str) -> str | None:
 
 
 print(get_data("2018-07-11T02:26:18.671407"))
-#как будто бы изменение файла
