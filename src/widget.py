@@ -9,7 +9,7 @@ def mask_account_card(numbers: str) -> str | None:
             numbers_var += number
     if numbers_var.isdigit() and len(numbers_var) == 16:
         return (
-            f"{' '.join(name_var.split())} {numbers_var[:4]} {numbers_var[5:7]}{"*" * 2} {"*" * 4} {numbers_var[12:]}"
+            f"{' '.join(name_var.split())} {numbers_var[:4]} {numbers_var[4:6]}{"*" * 2} {"*" * 4} {numbers_var[12:]}"
         )
     elif numbers_var.isdigit() and len(numbers_var) == 20:
         return f"{' '.join(name_var.split())} {'*' * 2}{numbers_var[-4::]}"
