@@ -1,0 +1,21 @@
+my_function ok
+my_function error: can only concatenate tuple (not "dict") to tuple. Inputs: ((1, 2), {}), {}
+my_function error: can only concatenate tuple (not "dict") to tuple. Inputs: ((1, 2), {}), {}
+my_function ok
+divide ok
+divide error: unsupported operand type(s) for /: 'int' and 'str'. Inputs: (1, '2'), {}
+my_function ok
+divide ok
+divide error: unsupported operand type(s) for /: 'int' and 'str'. Inputs: (1, '2'), {}
+my_function error: unsupported operand type(s) for +: 'int' and 'str'. Inputs: (1, '2'), {}
+my_function ok
+divide ok
+divide error: unsupported operand type(s) for /: 'int' and 'str'. Inputs: (1, '2'), {}
+my_function ok
+my_function ok
+my_function ok
+divide ok
+divide error: unsupported operand type(s) for /: 'int' and 'str'. Inputs: (1, '2'), {}
+my_function ok
+divide ok
+divide error: unsupported operand type(s) for /: 'int' and 'str'. Inputs: (1, '2'), {}
