@@ -1,0 +1,2 @@
+my_function ok
+my_function error: can only concatenate tuple (not "dict") to tuple. Inputs: ((1, 2), {}), {}
